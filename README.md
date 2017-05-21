@@ -20,6 +20,7 @@ add_doxygen(Main)
 For out-surce-build, you follow below.
 ```
 mkdir build
+cd build
 cmake ..
 ```
 
@@ -37,3 +38,4 @@ You can also generate single target document by `make doxygen-XXXX`.
 make doxygen-Main
 ```
 
+Then, you can find document in  `/build/DoxyDoc/XXXX`.
